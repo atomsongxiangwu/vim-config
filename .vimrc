@@ -25,12 +25,17 @@ autocmd FileType html,css EmmetInstall
 let g:user_emmet_leader_key='<C-Z>'
 
 " tab
+set tabstop=4
 set shiftwidth=4
+set softtabstop=4
+set smarttab 
 set expandtab
 set autoindent
+set shiftround
 
 " find
 set ignorecase
+:set hlsearch
 
 " theme
 syntax enable
