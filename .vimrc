@@ -24,6 +24,13 @@ let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 let g:user_emmet_leader_key='<C-Z>'
 
+" ycm
+let g:ycm_python_binary_path='/usr/local/bin/python3'
+let g:ycm_global_ycm_extra_conf='~/.vim/plugged/youcompleteme/.ycm_extra_conf.py'
+let g:ycm_seed_identifiers_with_syntax=1
+let g:ycm_collect_identifiers_from_tags_files = 1
+let g:ycm_min_num_of_chars_for_completion=2
+
 " tab
 set tabstop=4
 set shiftwidth=4
@@ -32,6 +39,7 @@ set smarttab
 set expandtab
 set autoindent
 set shiftround
+set backspace=2
 
 " find
 set ignorecase
