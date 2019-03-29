@@ -9,6 +9,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'posva/vim-vue'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/LeaderF'
+Plug 'raimondi/delimitmate'
 call plug#end()
 
 " nerdtree
@@ -35,7 +36,7 @@ let g:ycm_min_num_of_chars_for_completion=2
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set smarttab 
+set smarttab
 set expandtab
 set autoindent
 set shiftround
