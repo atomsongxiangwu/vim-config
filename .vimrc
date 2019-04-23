@@ -10,6 +10,8 @@ Plug 'posva/vim-vue'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/LeaderF'
 Plug 'raimondi/delimitmate'
+Plug 'leafgarland/typescript-vim'
+Plug 'w0rp/ale'
 call plug#end()
 
 " nerdtree
@@ -32,11 +34,14 @@ let g:ycm_seed_identifiers_with_syntax=1
 let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_min_num_of_chars_for_completion=2
 
+" typescript
+let g:typescript_indent_disable = 1
+
 " tab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set smarttab
+set smarttab 
 set expandtab
 set autoindent
 set shiftround
