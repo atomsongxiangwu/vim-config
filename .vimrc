@@ -54,5 +54,5 @@ set ignorecase
 " theme
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme monokai
 :set number
